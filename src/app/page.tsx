@@ -1,6 +1,6 @@
 "use client"
 
-import MuiSelect from '@/components/MuiSelect'
+import MuiRadioButton from '@/components/MuiRadioButton'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -10,7 +10,8 @@ export default function Home() {
       {/* <MuiTypography/> */}
       {/* <MuiButton/> */}
       {/* <MuiTextFied/> */}
-      <MuiSelect/>
+      {/* <MuiSelect/> */}
+      <MuiRadioButton/>
     </main>
   )
 }
