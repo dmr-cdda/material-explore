@@ -1,6 +1,6 @@
 "use client"
 
-import MuiTextFied from '@/components/MuiTextFied'
+import MuiSelect from '@/components/MuiSelect'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -9,7 +9,8 @@ export default function Home() {
     <main className={styles.main}>
       {/* <MuiTypography/> */}
       {/* <MuiButton/> */}
-      <MuiTextFied/>
+      {/* <MuiTextFied/> */}
+      <MuiSelect/>
     </main>
   )
 }
